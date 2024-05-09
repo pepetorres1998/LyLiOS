@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		821A34B92B9C6E470045325C /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821A34B82B9C6E470045325C /* RegisterView.swift */; };
 		82A99BCD2B93C55500A1130C /* LyLApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A99BCC2B93C55500A1130C /* LyLApp.swift */; };
 		82A99BCF2B93C55500A1130C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A99BCE2B93C55500A1130C /* ContentView.swift */; };
 		82A99BD12B93C55700A1130C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82A99BD02B93C55700A1130C /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		821A34B82B9C6E470045325C /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		82A99BC92B93C55500A1130C /* LyL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LyL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82A99BCC2B93C55500A1130C /* LyLApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyLApp.swift; sourceTree = "<group>"; };
 		82A99BCE2B93C55500A1130C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				82A99BD02B93C55700A1130C /* Assets.xcassets */,
 				82A99BD22B93C55700A1130C /* Preview Content */,
 				82A99BDA2B93C58400A1130C /* LogInView.swift */,
+				821A34B82B9C6E470045325C /* RegisterView.swift */,
 			);
 			path = LyL;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				82A99BDB2B93C58400A1130C /* LogInView.swift in Sources */,
+				821A34B92B9C6E470045325C /* RegisterView.swift in Sources */,
 				82A99BCF2B93C55500A1130C /* ContentView.swift in Sources */,
 				82A99BCD2B93C55500A1130C /* LyLApp.swift in Sources */,
 			);

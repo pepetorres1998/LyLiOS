@@ -29,7 +29,8 @@ struct LogInView: View {
                 SecureField("", text: $password,prompt: Text("Contraseña"))
                     .disableAutocorrection(true)
                     .autocapitalization(.none)
-            }.padding(.bottom)
+            }
+            .padding(.bottom)
             
             Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
                 Text("LOGIN")
@@ -50,9 +51,10 @@ struct LogInView: View {
         .padding()
         .textFieldStyle(.roundedBorder)
         .fontDesign(.rounded)
+        .background(Color.white)
     }
 }
 
 #Preview {
-    LogInView()
+    LogInView().environment(\.colorScheme, .light)
 }
